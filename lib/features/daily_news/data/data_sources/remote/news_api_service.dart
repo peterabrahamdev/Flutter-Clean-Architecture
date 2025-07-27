@@ -5,6 +5,7 @@ import 'package:retrofit/retrofit.dart';
 
 // Retrofit generates code, therefore we need to specify the generation file.
 part 'news_api_service.g.dart';
+
 @RestApi(baseUrl: newsAPIBaseUrl)
 // This class is responsible for handling all the network call methods.
 abstract class NewsApiService {
